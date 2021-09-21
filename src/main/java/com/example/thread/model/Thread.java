@@ -16,6 +16,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
+// 스레드 데이터 정의
 public class Thread {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
